@@ -13,7 +13,7 @@
             request.setAttribute("list", list);
         %>
         <table border="1" width="90%">
-            <tr><th>Id</th><th>Judul</th><th>Penulis</th><th>Deskripsi</th><th>Harga</th><th>Stok</th><th>Edit</th><th>Delete</th></tr>
+            <tr><th>Id</th><th>Judul</th><th>Penulis</th><th>Penerbit</th><th>Harga</th><th>Stok</th><th>Edit</th><th>Delete</th></tr>
                     <c:forEach items="${list}" var="b">
                 <tr><td>${b.getId()}</td><td>${b.getJudul()}</td><td>${b.getPenulis()}</td><td>${b.getDeskripsi()}</td><td>${b.getHarga()}</td><td>${b.getGambar()}</td><td><a href="editform.jsp?id_buku=${b.getId()}">Edit</a></td><td><a href="deletebook.jsp?id=${b.getId()}">Delete</a></td></tr>
             </c:forEach>

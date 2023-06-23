@@ -18,9 +18,9 @@
             <table>
                 <tr><td>Judul Buku:</td><td><input type="text" name="judul" value="<%= b.getJudul()%>"/></td></tr>
                 <tr><td>Penulis:</td><td><input type="text" name="penulis" value="<%= b.getPenulis()%>"/></td></tr>
-                <tr><td>Deskripsi:</td><td><input type="text" name="deskripsi" value="<%= b.getDeskripsi()%>"/></td></tr>
+                <tr><td>Penerbit:</td><td><input type="text" name="deskripsi" value="<%= b.getDeskripsi()%>"/></td></tr>
                 <tr><td>Harga:</td><td><input type="text" name="harga" value="<%= b.getHarga()%>"/></td></tr>
-                <tr><td>Gambar:</td><td><input type="text" name="gambar" value="<%= b.getGambar()%>"/></td></tr>
+                <tr><td>Stok:</td><td><input type="text" name="gambar" value="<%= b.getGambar()%>"/></td></tr>
                 <tr><td colspan="2"><input type="submit" value="Edit Book"/></td></tr>
             </table>
         </form>
